@@ -1,0 +1,13 @@
+[project]
+name = "productfilter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.2.8",
+    "django-filter>=25.2",
+    "django-mptt>=0.18.0",
+    "djangorestframework>=3.16.1",
+    "djangorestframework-simplejwt>=5.5.1",
+]
